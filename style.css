@@ -1,8 +1,10 @@
+/*Declare mayonice font*/
 @font-face {
     font-family: mayonice;
     src: url(Mayonice.ttf);
 }
 
+/*Roboto font declaration*/
 .roboto-<uniquifier> {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -12,15 +14,18 @@
       "wdth" 100;
 }
 
+/*Background color*/
 body {
 background-color: #9966CC;
 }
 
+/*Heading stylizer*/
 .heading {
 font-family: mayonice;
 color: #ecebe2;
 }
 
+/*Paragraphs are styled with Roboto font*/
 .p1 {
 font-family: Roboto;
 }
@@ -29,6 +34,7 @@ font-family: Roboto;
   font-family: Roboto;
 }
 
+/*Card is stylized with background color, margin set to center and a hover animation*/
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -37,6 +43,7 @@ font-family: Roboto;
     margin: auto;
 }
 
+/*Second card is styled the same way*/
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -44,19 +51,23 @@ font-family: Roboto;
   background-color: aliceblue;
   margin: auto;
 }
-  
+
+/*Hover animation*/
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+/*Also hover animation*/
 .card2:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-  
+
+/*Padding added to ensure nothing is hidden*/
   .container {
     padding: 2px 16px;
 }
 
+/*Padding added to ensure nothing is hidden*/
 .container2 {
   padding: 2px 16px;
 }
